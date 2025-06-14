@@ -1,6 +1,8 @@
-# iCE-NGM: Improved Cross-Entropy Importance Sampling with Non-Parametric Adaptive Gaussian Mixtures and Budget-Informed Stopping Criterion
+# iCE-NGM: Improved cross-entropy importance sampling with non-parametric adaptive Gaussian mixtures and budget-informed stopping criterion
 
 **Authors:** Tianyu Zhang, Jize Zhang
+
+**Affiliation:** Department of Civil and Environmental Engineering, The Hong Kong University of Science and Technology, Hong Kong, China
 
 ## Abstract
 
@@ -11,40 +13,37 @@ Estimating the failure probability is an essential task in engineering reliabili
 ```
 iCE-NGM/
 ├── src/                    # Source code
-│   ├── __init__.py        # Package initialization
-│   ├── iceais.py          # Main iCE-NGM implementation (18KB, 441 lines)
-│   ├── modules.py         # Supporting modules and utilities (7.4KB, 182 lines)
-│   └── utils.py           # Utility functions (1.3KB, 48 lines)
+│   ├── iceais.py          # Main iCE-NGM implementation
+│   ├── modules.py         # Supporting modules and utilities
+│   └── utils.py           # Utility functions
 ├── notebooks/             # Jupyter notebooks with examples and demonstrations
-│   ├── __init__.py        # Package initialization
-│   ├── demo_example_series_system.ipynb     # Series system reliability example (2.1MB)
-│   └── demo_example_parabolic_1.ipynb       # Parabolic reliability problem example (874KB)
-└── .gitignore            # Git ignore file
+│   ├── demo_example_series_system.ipynb     # series_system reliability example
+│   └── demo_example_parabolic_1.ipynb       # parabolic_1 example
 ```
 
 ## Description
 
-This repository contains the implementation of the **iCE-NGM** (improved Cross-Entropy with Non-parametric adaptive Gaussian Mixtures) method for efficient failure probability estimation in engineering reliability analysis.
+This repository contains the implementation of the **iCE-NGM** (Improved cross-entropy importance sampling with non-parametric adaptive Gaussian mixtures and budget-informed stopping criterion) method for efficient failure probability estimation in engineering reliability analysis.
 
-### Key Features
+### Key features
 
-- **Non-parametric Adaptive Gaussian Mixture Models**: Enhanced proposal density estimation using adaptive Gaussian mixtures
-- **Budget-Informed Stopping Criterion**: Optimal balance between proposal refinement and computational budget allocation
-- **Kernel Density Estimation Initialization**: Improved initialization strategy for over-parameterized Gaussian mixture models
-- **Constrained Expectation-Maximization**: Robust fitting procedure for mixture model parameters
+- **Non-parametric adaptive Gaussian mixture models**: Enhanced proposal density estimation using adaptive Gaussian mixtures
+- **Budget-informed stopping criterion**: Optimal balance between proposal refinement and computational budget allocation
+- **Kernel density estimation initialization**: Improved initialization strategy for over-parameterized Gaussian mixture models
+- **Constrained expectation-maximization**: Robust fitting procedure for mixture model parameters
 
-### Main Components
+### Main components
 
 - **`src/iceais.py`**: Core implementation of the iCE-NGM algorithm
 - **`src/modules.py`**: Supporting modules including Gaussian mixture models and utility functions
 - **`src/utils.py`**: General utility functions for the framework
 
-### Examples and Demonstrations
+### Examples and demonstrations
 
 The `notebooks/` directory contains comprehensive examples demonstrating the application of iCE-NGM to various reliability problems:
 
-1. **Series System Example**: Demonstrates the method on series system reliability analysis
-2. **Parabolic Problem Example**: Shows application to parabolic reliability problems
+1. **Series system example**: Demonstrates the method on series system reliability analysis
+2. **Parabolic problem example**: Shows application to parabolic reliability problems
 
 ## Usage
 
