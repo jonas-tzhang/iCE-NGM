@@ -59,9 +59,16 @@ This project is implemented in Python. Please ensure you have the necessary depe
 If you use this code in your research, please cite the original paper:
 
 ```bibtex
-@article{zhang2024ice,
-  title={iCE-NGM: Improved Cross-Entropy Importance Sampling with Non-Parametric Adaptive Gaussian Mixtures and Budget-Informed Stopping Criterion},
-  author={Zhang, Tianyu and Zhang, Jize},
-  year={2025}
+@article{ZHANG2025111322,
+title = {iCE-NGM: Improved cross-entropy importance sampling with non-parametric adaptive Gaussian mixtures and budget-informed stopping criterion},
+journal = {Reliability Engineering & System Safety},
+pages = {111322},
+year = {2025},
+issn = {0951-8320},
+doi = {https://doi.org/10.1016/j.ress.2025.111322},
+url = {https://www.sciencedirect.com/science/article/pii/S095183202500523X},
+author = {Tianyu Zhang and Jize Zhang},
+keywords = {Reliability analysis, Importance sampling, Cross entropy method, Mixture model, Stopping criterion},
+abstract = {Estimating the failure probability is an essential task in engineering reliability analysis, which can be challenging for applications featuring small failure probabilities and complex numerical models. Cross entropy (CE) importance sampling is a promising strategy to enhance the estimation efficiency, by searching for the proper proposal density that resembles the theoretically optimal choice. This paper introduces iCE-NGM, an approach that enriches the recently proposed improved cross entropy (iCE) method by a non-parametric adaptive Gaussian mixture model and a budget-informed stopping criterion. An over-parameterized Gaussian mixture model will be identified with a kernel density estimation-inspired initialization and a constrained Expectation-Maximization fitting procedure. A novel budget-informed stopping criterion quantitatively balances between further refining proposal and reserving computational budget for final evaluation. A set of numerical examples demonstrate that the proposed approach performs consistently better than the classical distribution families and the existing stopping criteria.}
 }
 ``` 
