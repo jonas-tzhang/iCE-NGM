@@ -19,6 +19,7 @@ iCE-NGM/
 ├── notebooks/             # Jupyter notebooks with examples and demonstrations
 │   ├── demo_example_series_system.ipynb     # series_system reliability example
 │   └── demo_example_parabolic_1.ipynb       # parabolic_1 example
+└── .gitignore            # Git ignore file
 ```
 
 ## Description
