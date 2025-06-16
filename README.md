@@ -8,7 +8,7 @@
 
 Estimating the failure probability is an essential task in engineering reliability analysis, which can be challenging for applications featuring small failure probabilities and complex numerical models. Cross entropy (CE) importance sampling is a promising strategy to enhance the estimation efficiency, by searching for the proper proposal density that resembles the theoretically optimal choice. This paper introduces iCE-NGM, an approach that enriches the recently proposed improved cross entropy (iCE) method by a non-parametric adaptive Gaussian mixture model and a budget-informed stopping criterion. An over-parameterized Gaussian mixture model will be identified with a kernel density estimation inspired initialization and a constrained Expectation-Maximization fitting procedure. A novel budget-informed stopping criterion quantitatively balances between further refining proposal and reserving computational budget for final evaluation. A set of numerical examples demonstrate that the proposed approach performs consistently better than the classical distribution families and the existing stopping criteria.
 
-## Project Structure
+## Project structure
 
 ```
 iCE-NGM/
